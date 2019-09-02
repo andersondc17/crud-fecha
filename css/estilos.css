@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.caja{
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    height: auto;
+    overflow: hidden;
+}
+
+.contenedor-img img{
+    width: 100%;
+    display: auto;
+    height: 350px;
+}
+
+@media screen and (max-width:800px){
+    .caja{
+        width: 98%;
+    }
+
+   .contenedor-img img{
+    width: 100%;
+    display: auto;
+    height: auto;
+    }
+
+}

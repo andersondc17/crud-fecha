@@ -1,0 +1,7 @@
+AuthName "Necesita validarse" 
+AuthUserFile D:\xampp\htdocs\sitios\listado\reserva\.htpasswd 
+AuthType Basic
+require user gestorbd
+
+
+
